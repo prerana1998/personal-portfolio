@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dfaf55e57c.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/ds_logo-removebg-preview_1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                <div class="boton-menu"><i class="fas fa-times" onclick="closemenu()"></i></div>
+            </ul>
+            <div class="boton-menu-1"><i class="fas fa-solid fa-bars" onclick="openmenu()"></i></div>
+            
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hi, I'm <span>Prerana</span></h1>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="conatiner">
+        <div class="row">
+            <div class="about-col-1">
+                <div class="tenor-gif-embed" data-postid="21582984" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/digital-skola-bertalenta-digital-data-enthusiast-data-science-data-engineer-gif-21582984">Digital Skola Bertalenta Digital Sticker</a>from <a href="https://tenor.com/search/digital+skola-stickers">Digital Skola Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I'm a data science professional with 3 years of experience, a passion for extracting insights 
+                    from complex datasets. With a strong background in statistical analysis and machine 
+                    learning, I thrive on solving real-world problems through data-driven solutions. 
+                    I'm dedicated to continuous learning and staying at the forefront of data science 
+                    to make a meaningful impact in the world of analytics
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data science</span><br>Proficient in data wrangling, machine learning, and data visualization for actionable insights</li>
+                        <li><span>Statistics</span><br>Experienced in statistical analysis, hypothesis testing, and modeling for data-driven decision-making</li>
+                        <li><span>Natural language processing/Generative AI</span><br>Experienced in Natural Language Processing (NLP) to unlock the power of textual data through sentiment analysis, text classification, and language understanding</li>
+                        <li><span>Deep Learning</span><br>Experienced in deep learning techniques and neural networks for solving complex problems in computer vision, natural language processing, and more</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2020 - Current</span><br>Senior Data Scientist</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016-2020</span><br>BE-Information Science from Maharaja Insititute of Technology</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.JPG">
+                <div class="layer">
+                    <h3>Mutual Fund Chatbot</h3>
+                    <p> A Chatbot that answers all queries related to mutual funds using a custom document. The chatbot is built by using langchain framework.
+                        It uses OpenAI's GPT-3.5 Turbo model for delevering the answers. It also uses Pinecone vector store and ADA embedding model
+                    </p>
+                    <a href="https://github.com/prerana1998/mutual-funds-chatbot"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p> Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data. 
+                    These insights can be used to guide decision making and strategic planning.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p> Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data. 
+                    These insights can be used to guide decision making and strategic planning.These insights can be used to guide decision making and strategic planning.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/prerana1998?tab=repositories" class="btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+            <div class="contact-left">
+                <p><i class="fas fa-solid fa-envelope"></i> prerananmurthy@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/prerana1998"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/prerana-n-7610341b3/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-right"></div>
+      
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemen = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+    function closemenu(){
+        sidemen.style.right="-200px";
+    }
+</script>
+</body>
+
+</html>
